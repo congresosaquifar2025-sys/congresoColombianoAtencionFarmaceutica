@@ -1,5 +1,6 @@
 # Vlll congreso colombiano de atención farmacéutica
 Elaborado por [Juan Felipe González Cano](https://juanfgonzalez.netlify.app/)
+
 Octubre 2025
 
 ## React + TypeScript + Vite

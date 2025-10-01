@@ -66,7 +66,7 @@ export const jueves3: datosProgramacion[] = [
     id: 5,
     horario: "10:15 - 10:45",
     tema: "Conferencia plenaria: Gestión Integral de la Farmacoterapia en Atención Primaria",
-    conferencia: "Dr. Rafael Amaro y Dra. Mónica Guzmán Erauquín. Venezuela.",
+    conferencia: "Dr. Rafael Amaro. Venezuela. \nDra. Mónica Guzmán. Venezuela.",
     color: colorMorado,
   },
   {
