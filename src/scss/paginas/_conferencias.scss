@@ -1,0 +1,129 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+@use "sass:color";
+
+
+.agenda {
+    padding: 3rem 0;
+    @include m.contenedor;
+}
+ 
+.eventos {
+    $modificador: &;
+
+    &__heading {
+        color: #1d3557;
+        margin: 3rem 0;
+        text-align: left;
+        font-size: 3.3rem;
+
+        @include m.tablet {
+            font-size: clamp(2rem, -0.8rem + 8vw , 6rem);
+            margin: 3.2rem 0;
+        }
+    }
+
+    &__fecha {
+        color: v.$gris;
+        margin: 3rem 0 1rem 0;
+    }
+
+    &--torneos{
+        #{$modificador}__heading {
+            color: #2d6a4f;
+        }
+
+        .evento__informacion {
+            &:hover {
+                background-color: color.adjust(#2d6a4f, $lightness: -10%);
+            }
+        }
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        color: rgba($color: v.$blanco, $alpha: .6);
+    }
+}
+
+.evento {
+
+    &__hora {
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+
+    &__informacion {
+        padding: 2rem;
+        border-radius: 0.3rem;
+        color: v.$blanco;
+        min-height: 50px;
+        height: 83%;
+        transition: 300ms background-color ease;
+
+        @include m.tablet {
+            min-height: 50px;
+        }
+
+        &:hover {
+            background-color: color.adjust(#1d3557, $lightness: -10%);
+        }
+    }
+
+    &__nombre {
+        font-size: 1.9rem;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 1rem;
+
+        display: -webkit-box;
+        // -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    &__introduccion {
+        font-size: 1.3rem;
+
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        
+        @include m.tablet {
+            -webkit-line-clamp: 4;
+        }
+    }
+
+    &__autor-info {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__imagen-autor {
+        // width: 5rem;
+        background-color: v.$blanco;
+        border-radius: 50%;
+        width: 320px;             /* tamaño fijo */
+        height: 370px;
+        max-width: 320px;             /* tamaño fijo */
+        max-height: 370px;
+        object-fit: cover;        /* recorta manteniendo proporción (útil si la imagen no es exactamente esas dimensiones) */
+        object-position: center;
+    }
+
+    &__autor-nombre {
+        font-weight: v.$bold;
+    }
+
+    &__agregar {
+        @include m.boton(v.$blanco, v.$negro);
+        margin-top: 1rem;
+
+        &:disabled {
+            opacity: .5;
+            cursor: not-allowed;
+        }
+    }
+}
