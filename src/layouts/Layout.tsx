@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import logo from "../assets/logo2.png";
-import abc from "../assets/152.jpg";
 import Footer from "./Footer";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import AOS from "aos";
 import ScrollToSection from "../components/ScrollToSection";
+import SliderInicio from "../components/SliderInicio";
 
 export default function Layout() {
   useEffect(() => {
@@ -27,13 +27,15 @@ export default function Layout() {
             (Medellín, Colombia)
           </p>
 
-          <Link to="/paquetes" className="header__button inline">
-            Inscríbete
-          </Link>
+          <div>
+            <Link to="/paquetes" className="header__button inline">
+              Inscríbete
+            </Link>
+          </div>
         </div>
 
-        <div className="h-auto w-auto">
-          <img className="w-200" src={abc} alt="" />
+        <div className="flex justify-center items-center">
+          <SliderInicio />
         </div>
       </header>
 

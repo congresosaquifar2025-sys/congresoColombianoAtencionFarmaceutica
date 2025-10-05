@@ -1148,6 +1148,12 @@ h3 {
   }
 }
 
+.slick-prev:before,
+.slick-next:before {
+  opacity: 1 !important;
+  color: #4a2bac !important;
+}
+
 .barra {
   background-color: #4a2bac;
   padding-top: 1rem;
