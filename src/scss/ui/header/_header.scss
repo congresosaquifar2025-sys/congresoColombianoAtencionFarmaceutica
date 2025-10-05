@@ -3,6 +3,7 @@
 
 .header {
     min-height: 60rem;
+    padding: 5rem;
     
     background-image: url('/build/img/header2.jpg');
     background-repeat: no-repeat;    
@@ -65,7 +66,6 @@
 
         &--modalidad {
             font-size: 2rem;
-
         }
     }
 

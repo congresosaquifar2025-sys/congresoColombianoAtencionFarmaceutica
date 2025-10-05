@@ -1048,6 +1048,7 @@ h3 {
 
 .header {
   min-height: 60rem;
+  padding: 5rem;
   background-image: url("/build/img/header2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
