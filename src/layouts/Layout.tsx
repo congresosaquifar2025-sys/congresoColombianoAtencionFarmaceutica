@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import logo from "../assets/logo2.png";
+import logoWebp from "../assets/logo2.webp";
 import Footer from "./Footer";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -19,7 +20,12 @@ export default function Layout() {
       <header className="header md:flex justify-around gap-13">
         <div className="contenido flex flex-col">
           <Link to="/">
-            <img src={logo} alt="logo" className="max-w-200 w-full h-auto" />
+            <picture>
+              <source srcSet={logoWebp} type="image/webp"/>
+              <source srcSet={logo} type="image/png" />
+              
+              <img src={logo} alt="logo" className="max-w-200 w-full h-auto" />
+            </picture>
           </Link>
 
           <p className="header__texto inline">13 al 15 de noviembre de 2025</p>

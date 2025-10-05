@@ -1,14 +1,20 @@
 import logoFooter from "./../assets/logoFooter.png";
+import logoFooterWebp from "./../assets/logoFooter.webp";
 
 export default function Footer() {
   return (
     <>
       <footer className="footer flex flex-col items-center ">
         <div className=" px-8 md:max-w-7xl ">
+          <picture>
+            <source srcSet={logoFooterWebp} type="image/webp"/>
+            <source srcSet={logoFooter} type="image/png" />
+            
             <img 
               className="max-w-3xl w-full" 
               src={logoFooter} 
               alt="Logo Vlll Congreso colombiano de atención farmacéutica"  />
+          </picture>
         </div>
 
         <p className="footer__copyright block w-full">

@@ -1,19 +1,12 @@
-import foto from "./../assets/152.jpg";
-import video from "./../assets/Video.webm";
-import video4 from "./../assets/Video.mp4";
-
-import udea from "./../assets/logosInicio/udea1.png";
-import aquifar from "./../assets/logosInicio/aquifar1.png";
-import asociacion from "./../assets/logosInicio/asociacion1.png";
-import catedra from "./../assets/logosInicio/mfd2.png";
-import giaf from "./../assets/logosInicio/GIAF.png"
-import cieulm from "./../assets/logosInicio/cielum1.png";
-import citeSalud from "./../assets/logosInicio/citesalud1.png";
-import pharmaceutical from "./../assets/logosInicio/funcaion1.png";
-import colegio from "./../assets/logosInicio/colegio1.png";
-
 import Mapa from "../components/Mapa";
 import EjesTematicos from "../components/Tematicas";
+import Organiza from "../components/Inicio/Organiza";
+import { organizan, apoyan } from "../data/organizan";
+
+import foto from "./../assets/152.jpg";
+import fotoWebp from "./../assets/152.webp";
+import video from "./../assets/Video.webm";
+import video4 from "./../assets/Video.mp4";
 
 export default function Inicio() {
   return (
@@ -24,11 +17,16 @@ export default function Inicio() {
 
       <div className="TetrisCoders__grid">
         <div className="TetrisCoders__imagen" data-aos="fade-up">
-          <img
-            src={foto}
-            alt="Quimicas en un laboratorio"
-            className="rounded  h-full w-auto"
-          />
+           <picture>
+              <source srcSet={fotoWebp} type="image/webp"/>
+              <source srcSet={foto} type="image/png" />
+              
+              <img
+                src={foto}
+                alt="Quimicas en un laboratorio"
+                className="rounded  h-full w-auto"
+              />
+            </picture>
         </div>
 
         <div className="TetrisCoders__contenido">
@@ -121,27 +119,17 @@ export default function Inicio() {
 
       <div className="flex justify-center items-center">
         <div className="flex flex-wrap justify-center items-center gap-12 mt-10">
-          <img
-            className="h-20 md:h-28 object-contain"
-            src={udea}
-            alt="Grupo de investigación Promoción y Prevención Farmacéutica, Universidad de Antioquia, Colombia"
-            data-aos="fade-up"
-            data-aos-duration="400"
-          />
-          <img
-            className="h-20 md:h-28 object-contain"
-            src={aquifar}
-            alt="Asociación de Químicos Farmacéuticos de Antioquia"
-            data-aos="fade-up"
-            data-aos-duration="800"
-          />
-          <img
-            className="h-20 md:h-28 object-contain"
-            src={asociacion}
-            alt="Asociación Colombiana de Químicos Farmacéuticos Hospitalarios"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          />
+          {
+            organizan.map((item, index) => (
+              <Organiza
+                key={index}
+                png={item.png}
+                webp={item.webp}
+                alt={item.alt}
+                duration={item.duration}
+              />
+            ))
+          }
         </div>
       </div>
 
@@ -156,48 +144,15 @@ export default function Inicio() {
 
       <div className="flex justify-center items-center m-1">
         <div className="flex flex-wrap justify-center items-center gap-15 md:gap-26 mt-10">
-          <img
-            className="h-20 md:h-28 object-contain"
-            src={colegio}
-            alt="Colegio Nacional de Químicos Farmacéuticos de Colombia"
-            data-aos="fade-up"
-            data-aos-duration="400"
-          />
-          <img
-            className="h-20 md:h-28 object-contain"
-            src={giaf}
-            alt="Grupo de Investigación en Atención Farmacéutica, Universidad de Granada, España"
-            data-aos="fade-up"
-            data-aos-duration="400"
-          />
-          <img
-            className="h-20 md:h-28 object-contain"
-            src={catedra}
-            alt="Cátedra de Atención Farmacéutica Universidad de Granada, España"
-            data-aos="fade-up"
-            data-aos-duration="600"
-          />
-          <img
-            className="h-20 md:h-28 object-contain"
-            src={cieulm}
-            alt="Cielum Health, Colombia"
-            data-aos="fade-up"
-            data-aos-duration="800"
-          />
-          <img
-            className="h-20 md:h-28 object-contain"
-            src={pharmaceutical}
-            alt="Fundación Pharmaceutical Care-España"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          />
-          <img
-            className="h-20 md:h-28 object-contain"
-            src={citeSalud}
-            alt="Asociación ciencia y tecnología para la salud, EIBA-Farmacia Hospitalaria, España"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          />
+          {apoyan.map((item, index) => (
+            <Organiza
+              key={index}
+              png={item.png}
+              webp={item.webp}
+              alt={item.alt}
+              duration={item.duration}
+            />
+          ))}
         </div>
       </div>
     </>

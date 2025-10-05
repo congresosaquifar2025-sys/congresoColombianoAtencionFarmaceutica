@@ -1,6 +1,8 @@
 import Slider from "react-slick";
 import slide2 from "../assets/slider/Recurso 1.jpg";
+import slide2Webp from "../assets/slider/Recurso 1.webp";
 import slide1 from "../assets/slider/Recurso 2.jpg";
+import slide1Webp from "../assets/slider/Recurso 2.webp";
 
 function SliderInicio() {
   const settings = {
@@ -26,7 +28,12 @@ function SliderInicio() {
               alignItems: "center",
             }}
           >
-            <img className=" w-full h-auto" src={slide1} alt={slide1} />
+            <picture>
+              <source srcSet={slide1Webp} type="image/webp"/>
+              <source srcSet={slide1} type="image/jpg" />
+              
+              <img className=" w-full h-auto" src={slide1} alt={slide1} />
+            </picture>
           </div>
 
           <div
@@ -37,7 +44,12 @@ function SliderInicio() {
               alignItems: "center",
             }}
           >
-            <img className="w-full h-auto" src={slide2} alt={slide2} />
+            <picture>
+              <source srcSet={slide2Webp} type="image/webp"/>
+              <source srcSet={slide2} type="image/jpg" />
+              
+              <img className=" w-full h-auto" src={slide2} alt={slide2} />
+            </picture>
           </div>
           
         </Slider>
