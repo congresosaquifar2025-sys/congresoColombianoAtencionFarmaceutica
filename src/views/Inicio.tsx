@@ -80,6 +80,7 @@ export default function Inicio() {
             controls 
             autoPlay 
             muted 
+            loop
             className="rounded mt-15 shadow-[0_4px_5px_1px_rgba(84,132,230,0.65)]"
             >
             <source src={video} type="video/webm" />
