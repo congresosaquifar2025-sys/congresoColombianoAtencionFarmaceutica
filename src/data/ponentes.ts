@@ -44,6 +44,8 @@ import lucrecia from "./../assets/ponentes/lucrecia.jpg";
 import lucreciaWebp from "./../assets/ponentes/lucrecia@2x-100.webp";
 import julio from "./../assets/ponentes/julio.jpg";
 import julioWebp from "./../assets/ponentes/julio@2x-100.webp";
+import orlando from "./../assets/ponentes/orlando.jpg";
+import orlandoWebp from "./../assets/ponentes/orlando@2x-100.webp";
 
 export const datosPonentes: datosPonente[] = [
   {
@@ -214,6 +216,22 @@ export const datosPonentes: datosPonente[] = [
     skills: ["Gestión Integral de la Medicación", "Divulgador Científico"],
   },
   {
+    id: 18,
+    nombre: "Fernando Martínez-Martínez",
+    foto: fernando,
+    foto1: fernandoWebp,
+    descripcion: `Doctor en Farmacia. Profesor Colaborador Extraordinario adscrito a la Sección de Farmacia Asistencial, Social y Legal del Departamento de Farmacia y Tecnología Farmacéutica de la Universidad de Granada (UGR), España. 
+    Director de la Cátedra María José Faus Dáder de Atención Farmacéutica de la Universidad de Granada. - Investigador Responsable del Grupo de Atención Farmacéutica. CTS-131. UGR. Vicepresidente de la Academia Iberoamericana de Farmacia. Vicepresidente de Sociedad Científico Profesional de Farmacia Iberoamericana Comunitaria (SOCFIC). Ex Decano de la Facultad de Farmacia de Granada. 
+
+    Ha publicado más de 280 artículos y es coautor de 36 libros o capítulos de libros. Dirigido 64 Tesis Doctorales y ha participado en 70 Proyectos o Contratos de Investigación. Ha dirigido 92 Trabajos de Fin de Máster y 26 Trabajos de Fin de Grado. Ha participado en 15 Proyectos de Innovación Docente.
+    `,
+    skills: [
+      "Atención Farmacéutica",
+      "Farmacia Asistencial",
+      "Cátedra María José Faus Dáder",
+    ],
+  },
+  {
     id: 15,
     nombre: "Newar Andres Giraldo",
     foto: ponente15,
@@ -234,7 +252,7 @@ export const datosPonentes: datosPonente[] = [
     skills: ["Gestión de Centros y Servicios de Salud", "Servicio de Farmacia"],
   },
   {
-    id: 15,
+    id: 17,
     nombre: "Lucrecia Bourgon Baquedano",
     foto: lucrecia,
     foto1: lucreciaWebp,
@@ -246,23 +264,7 @@ export const datosPonentes: datosPonente[] = [
     ],
   },
   {
-    id: 15,
-    nombre: "Fernando Martínez-Martínez",
-    foto: fernando,
-    foto1: fernandoWebp,
-    descripcion: `Doctor en Farmacia. Profesor Colaborador Extraordinario adscrito a la Sección de Farmacia Asistencial, Social y Legal del Departamento de Farmacia y Tecnología Farmacéutica de la Universidad de Granada (UGR), España. 
-    Director de la Cátedra María José Faus Dáder de Atención Farmacéutica de la Universidad de Granada. - Investigador Responsable del Grupo de Atención Farmacéutica. CTS-131. UGR. Vicepresidente de la Academia Iberoamericana de Farmacia. Vicepresidente de Sociedad Científico Profesional de Farmacia Iberoamericana Comunitaria (SOCFIC). Ex Decano de la Facultad de Farmacia de Granada. 
-
-    Ha publicado más de 280 artículos y es coautor de 36 libros o capítulos de libros. Dirigido 64 Tesis Doctorales y ha participado en 70 Proyectos o Contratos de Investigación. Ha dirigido 92 Trabajos de Fin de Máster y 26 Trabajos de Fin de Grado. Ha participado en 15 Proyectos de Innovación Docente.
-    `,
-    skills: [
-      "Atención Farmacéutica",
-      "Farmacia Asistencial",
-      "Cátedra María José Faus Dáder",
-    ],
-  },
-  {
-    id: 15,
+    id: 19,
     nombre: "Gabriel Mesa Nicholls",
     foto: gabriel,
     foto1: gabrielWebp,
@@ -277,7 +279,7 @@ export const datosPonentes: datosPonente[] = [
     ],
   },
   {
-    id: 15,
+    id: 20,
     nombre: "Julio Cesar García Casallas",
     foto: julio,
     foto1: julioWebp,
@@ -292,7 +294,7 @@ export const datosPonentes: datosPonente[] = [
     ],
   },
   {
-    id: 15,
+    id: 21,
     nombre: "Rubino Acero Soto",
     foto: rubino,
     foto1: rubinoWebp,
@@ -304,7 +306,7 @@ export const datosPonentes: datosPonente[] = [
     ],
   },
   {
-    id: 15,
+    id: 22,
     nombre: "Andrés Felipe Zuluaga Salazar",
     foto: andres,
     foto1: andresWebp,
@@ -315,6 +317,25 @@ export const datosPonentes: datosPonente[] = [
       "Farmacocinética y Farmacodinámica",
       "Farmacometría",
       "Desarrollo de modelos animales",
+    ],
+  },
+  {
+    id: 23,
+    nombre: "Orlando Carreño Moreno",
+    foto: orlando,
+    foto1:  orlandoWebp,
+    descripcion: `Orlando Carreño Moreno.  Médico Cirujano, Neurólogo infantil, Experto en Epilepsia con áreas de interés en Espasticidad, TICS, TDAH y Neurodesarrollo. Director Científico en Grupo Antioqueño de Neurología Pediátrica y CENPI. Profesor Universitario en Medicina, Pediatría, Psicología, Neuropediatría, Neuropsicología.
+    Investigador en tratamientos antiepilépticos, fármacos, neuromodulación, VNS, DBS, Toxina Botulínica, Baclofeno, Cannabis Medicinal. Asesor en políticas públicas en salud a entidades gubernamentales y privada. 
+    Dedicado los últimos 15 años a Epilepsia y Movimientos Anormales en Niños y Adolescentes. Amplia experiencia clínica y participación interdisciplinaria en el manejo de pacientes de alta complejidad en estas áreas. Entrenamiento y experiencia en el manejo de tecnologías novedosas como estimulación del Nervio Vago, Estimulación cerebral profunda, Baclofeno Intratecal y Toxina Botulínica. Participación como coinvestigador e investigador principal para fármacos fase III y fase IV en Epilepsia, Esclerosis Tuberosa, Espasticidad, Tics y Distonías.
+    Investigador y Experticia en manejo de Cannabis Medicinal en Epilepsia y Espasticidad
+    Experiencia en implementación, organización y coordinación de clínicas de Epilepsia, Movimientos Anormales y Neurodesarrollo.
+    `,
+    skills: [
+      "Epilepsia",
+      "Neuromodulación",
+      "Toxina Botulínica",
+      "Cannabis Medicinal",
+      "Movimientos Anormales",
     ],
   },
 ];
