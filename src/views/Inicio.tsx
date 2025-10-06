@@ -2,7 +2,6 @@ import Mapa from "../components/Mapa";
 import EjesTematicos from "../components/Tematicas";
 import Organiza from "../components/Inicio/Organiza";
 import { organizan, apoyan } from "../data/organizan";
-
 import foto from "./../assets/152.jpg";
 import fotoWebp from "./../assets/152.webp";
 import video from "./../assets/Video.webm";
@@ -81,7 +80,7 @@ export default function Inicio() {
             controls 
             autoPlay 
             muted 
-            className="rounded shadow mt-15 shadow-[0_4px_5px_1px_rgba(84,132,230,0.65)]"
+            className="rounded mt-15 shadow-[0_4px_5px_1px_rgba(84,132,230,0.65)]"
             >
             <source src={video} type="video/webm" />
             <source src={video4} type="video/mp4" />
