@@ -17,8 +17,8 @@ export default function Layout() {
 
   return (
     <>
-      <header className="header md:flex justify-around gap-13">
-        <div className="contenido flex flex-col">
+      <header className="header md:flex justify-around gap-0.5">
+        <div className="contenido flex flex-col justify-center">
           <Link to="/">
             <picture>
               <source srcSet={logoWebp} type="image/webp"/>

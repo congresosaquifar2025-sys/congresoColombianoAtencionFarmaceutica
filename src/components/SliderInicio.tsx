@@ -1,6 +1,8 @@
 import Slider from "react-slick";
 import slide1 from "../assets/slider/Slide01.jpg";
+import slide1Webp from "../assets/slider/Slide01.webp";
 import slide2 from "../assets/slider/Slide02.jpg";
+import slide2Webp from "../assets/slider/Slide02.webp";
 
 function SliderInicio() {
   const settings = {
@@ -10,12 +12,12 @@ function SliderInicio() {
     slidesToScroll: 1,
     adaptiveHeight: true,
     autoplay: true,
-    autoplaySpeed: 2500
+    autoplaySpeed: 3000
   };
 
   return (
-    <div className="slider-container max-w-195 p-12">
-      <div className="max-w-200 w-[80vw]">
+    <div className="slider-container p-12">
+      <div className="max-w-200 lg:max-w-300 w-[75vw] lg:w-[80vw]">
         <Slider {...settings}>
           
           <div
@@ -27,7 +29,7 @@ function SliderInicio() {
             }}
           >
             <picture>
-              {/* <source srcSet={slide1Webp} type="image/webp"/> */}
+              <source srcSet={slide1Webp} type="image/webp"/>
               <source srcSet={slide1} type="image/jpg" />
               
               <img className="w-full h-auto rounded" src={slide1} alt={slide1} />
@@ -43,7 +45,7 @@ function SliderInicio() {
             }}
           >
             <picture>
-              {/* <source srcSet={slide2Webp} type="image/webp"/> */}
+              <source srcSet={slide2Webp} type="image/webp"/>
               <source srcSet={slide2} type="image/jpg" />
               
               <img className=" w-full h-auto rounded" src={slide2} alt={slide2} />
