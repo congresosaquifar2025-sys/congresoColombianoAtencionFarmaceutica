@@ -30,6 +30,20 @@ import ponente14 from "./../assets/ponentes/Ponente (14).jpg";
 import ponente14Webp from "./../assets/ponentes/Ponente (14).webp";
 import ponente15 from "./../assets/ponentes/Ponente (15).jpg";
 import ponente15Webp from "./../assets/ponentes/Ponente (15).webp";
+import andres from "./../assets/ponentes/andres.jpg";
+import andresWebp from "./../assets/ponentes/andres@2x-100.webp";
+import rubino from "./../assets/ponentes/rubino.jpg";
+import rubinoWebp from "./../assets/ponentes/Rubino@2x-100.webp";
+import fernando from "./../assets/ponentes/fernando.jpg";
+import fernandoWebp from "./../assets/ponentes/fernando@2x-100.webp";
+import gabriel from "./../assets/ponentes/gabriel.jpg";
+import gabrielWebp from "./../assets/ponentes/gabriel@2x-100.webp";
+import jose from "./../assets/ponentes/Jose.jpg";
+import joseWebp from "./../assets/ponentes/Jose@2x-100.webp";
+import lucrecia from "./../assets/ponentes/lucrecia.jpg";
+import lucreciaWebp from "./../assets/ponentes/lucrecia@2x-100.webp";
+import julio from "./../assets/ponentes/julio.jpg";
+import julioWebp from "./../assets/ponentes/julio@2x-100.webp";
 
 export const datosPonentes: datosPonente[] = [
   {
@@ -197,10 +211,7 @@ export const datosPonentes: datosPonente[] = [
     Fue Dueño, Gerente y Regente de su propia farmacia (2015-2021), una experiencia que le otorgó una sólida visión estratégica en planificación, capacitación y organización de servicios asistenciales.
     Es un Conferencista Internacional activo y un Divulgador Científico (a través de su marca Farmacéutico Pendientede Ti), llevando el conocimiento basado en evidencia a audiencias globales. Ha presidido y coordinado múltiples congresos de Atención Farmacéutica en Venezuela.
     `,
-    skills: [
-      "Gestión Integral de la Medicación",
-      "Divulgador Científico",
-    ],
+    skills: ["Gestión Integral de la Medicación", "Divulgador Científico"],
   },
   {
     id: 15,
@@ -212,6 +223,98 @@ export const datosPonentes: datosPonente[] = [
       "Gestión Farmacéutica",
       "Farmacoseguridad",
       "Inteligencia Artificial",
+    ],
+  },
+  {
+    id: 16,
+    nombre: "José Luis Marco Garbayo",
+    foto: jose,
+    foto1: joseWebp,
+    descripcion: `Doctor en Farmacia, especialista en Farmacia Hospitalaria, psicólogo. Master en Farmacia Clínica y Asistencial. Experto en Seguimiento Farmacoterapéutico. Master en Gestión de Centros y Servicios de Salud. Actualmente jefe del Servicio de Farmacia del Hospital Francesc de Borja (Gandía, Valencia).`,
+    skills: ["Gestión de Centros y Servicios de Salud", "Servicio de Farmacia"],
+  },
+  {
+    id: 15,
+    nombre: "Lucrecia Bourgon Baquedano",
+    foto: lucrecia,
+    foto1: lucreciaWebp,
+    descripcion: `Doctora en Farmacia por la Universidad Politécnica de Valencia. Especialista en Farmacia Hospitalaria. Adjunta del Servicio de Farmacia del Hospital Francesc de Borja (Gandía). Master en Nutrición Humana y Dietética. Coordinadora del grupo de trabajo de Nutrición Clínica de SEFH. Ponente y moderadora en congresos nacionales e internacionales de Farmacia Hospitalaria y Nutrición.`,
+    skills: [
+      "Nutrición Humana y Dietética",
+      "Servicio de Farmacia",
+      "Nutrición Clínica",
+    ],
+  },
+  {
+    id: 15,
+    nombre: "Fernando Martínez-Martínez",
+    foto: fernando,
+    foto1: fernandoWebp,
+    descripcion: `Doctor en Farmacia. Profesor Colaborador Extraordinario adscrito a la Sección de Farmacia Asistencial, Social y Legal del Departamento de Farmacia y Tecnología Farmacéutica de la Universidad de Granada (UGR), España. 
+    Director de la Cátedra María José Faus Dáder de Atención Farmacéutica de la Universidad de Granada. - Investigador Responsable del Grupo de Atención Farmacéutica. CTS-131. UGR. Vicepresidente de la Academia Iberoamericana de Farmacia. Vicepresidente de Sociedad Científico Profesional de Farmacia Iberoamericana Comunitaria (SOCFIC). Ex Decano de la Facultad de Farmacia de Granada. 
+
+    Ha publicado más de 280 artículos y es coautor de 36 libros o capítulos de libros. Dirigido 64 Tesis Doctorales y ha participado en 70 Proyectos o Contratos de Investigación. Ha dirigido 92 Trabajos de Fin de Máster y 26 Trabajos de Fin de Grado. Ha participado en 15 Proyectos de Innovación Docente.
+    `,
+    skills: [
+      "Atención Farmacéutica",
+      "Farmacia Asistencial",
+      "Cátedra María José Faus Dáder",
+    ],
+  },
+  {
+    id: 15,
+    nombre: "Gabriel Mesa Nicholls",
+    foto: gabriel,
+    foto1: gabrielWebp,
+    descripcion: `Médico, Especialista en patología de la Universidad de Boston (Estados Unidos). MBA en la Universidad de California (Estados Unidos). Exgerente general de SURA.   Educador - Emprendedor y Médico - MBA Ejecutivo UCLA - Patólogo - Speaker sistemas de salud y cuidado/bienesta. Además, es profesor universitario y un artista plástico activo, que disfruta… todos los días en su tienda de arte... buscando hacer visible lo invisible
+    El Dr. Mesa es una voz reconocida en el sector salud, en temas relacionados con el cuidado, el bienestar y el aseguramiento en salud, incluyendo la gestión del riesgo y financiero. Actualmente, Gerente General de Balance Pharma; Colombia. 
+    `,
+    skills: [
+      "Patología",
+      "Sistemas de salud",
+      "Gestión del riesgo",
+      "Bienestar",
+    ],
+  },
+  {
+    id: 15,
+    nombre: "Julio Cesar García Casallas",
+    foto: julio,
+    foto1: julioWebp,
+    descripcion: `Químico Farmacéutico de la Universidad Nacional de Colombia, Médico de la Universidad del Bosque, con postgrados en medicina Interna de Universidad Militar Nueva Granada y Farmacología Clínica de la Universidad de La Sabana; Así como, Maestría en farmacología de la Universidad Nacional de Colombia y Formación en Estrategia y Liderazgo por el INALDE y por ADEN, Escuelas de Negocios. Conocimiento y experiencia en farmacoterapéutica, Farmacología Clínica, Economía de la Salud, Farmacoeconomía, Farmacoepidemiología, Medicamentos Biológicos y Biosimilares en el marco del Sistema General de Seguridad Social en Salud. El Dr. 
+    Actualmente, es el director médico de la Clínica Universidad de la Sabana, Bogotá, Colombia. 
+    `,
+    skills: [
+      "Farmacología Clínica",
+      "Economía de la Salud",
+      "Farmacoeconomía",
+      "Farmacoepidemiología",
+    ],
+  },
+  {
+    id: 15,
+    nombre: "Rubino Acero Soto",
+    foto: rubino,
+    foto1: rubinoWebp,
+    descripcion: `Químico Farmacéutico, Especialista en Farmacia Hospitalaria, Master en Atención Farmacéutica. Conocimientos y experiencia reconocida en las actividades del desempeño farmacéutico en la farmacia hospitalaria y clínica. Además, experiencia en gestión clínica, investigación, docencia universitaria de posgrado y sistema de dispensación de dosis unitaria, con sólidos conocimientos en atención farmacéutica y seguimiento fármaco terapéutico. Actualmente, se desempeña como farmacéutico asistencial en Hospitales Barton & G. Kaelin de la Fuente, y es el presidente de la Sociedad Peruana de Farmacia Hospitalaria. `,
+    skills: [
+      "Gestión Clínica",
+      "Seguimiento Farmacoterapéutico",
+      "Sociedad Peruana de Farmacia Hospitalaria",
+    ],
+  },
+  {
+    id: 15,
+    nombre: "Andrés Felipe Zuluaga Salazar",
+    foto: andres,
+    foto1: andresWebp,
+    descripcion: `Médico, Farmacólogo, Magíster en Telesalud. Profesor titular e investigador del Departamento de Farmacología y Toxicología de la Facultad de Medicina Universidad de Antioquia. Investigador Senior sistema nacional de ciencia y tecnología de Colombia.  
+
+    El Dr. Zuluaga se ha dedicado a la investigación en aspectos relacionados con la farmacología, farmacocinética y farmacodinámica, farmacometría, inmunofarmacología, uso racional de fármacos, abuso y mal uso de sustancias, desarrollo de modelos animales de eficacia terapéutica, osteomielitis crónica, estudio de genéricos y biosimilares, optimización de dosis y desarrollo de herramientas tecnológicas para optimizar resultados en salud. Temas en los que tiene una amplia productividad académica.`,
+    skills: [
+      "Farmacocinética y Farmacodinámica",
+      "Farmacometría",
+      "Desarrollo de modelos animales",
     ],
   },
 ];
