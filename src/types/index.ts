@@ -3,6 +3,7 @@ export type datosPonente =
     id: number,
     nombre: string,
     foto: string,
+    foto1: string,
     descripcion: string,
     skills: string[]
   }

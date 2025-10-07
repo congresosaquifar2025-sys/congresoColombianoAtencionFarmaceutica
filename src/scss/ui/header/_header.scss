@@ -3,6 +3,7 @@
 
 .header {
     min-height: 60rem;
+    padding: 5rem;
     
     background-image: url('/build/img/header2.jpg');
     background-repeat: no-repeat;    
@@ -65,7 +66,6 @@
 
         &--modalidad {
             font-size: 2rem;
-
         }
     }
 
@@ -73,9 +73,17 @@
         @include m.boton(v.$azul, v.$blanco);
         text-transform: uppercase;
         margin: 2rem 0;
+        // width: auto;
         
         @include m.tablet {
             width: auto;
         }
     }
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    opacity: 1!important; 
+    color: #4a2bac!important;
 }
