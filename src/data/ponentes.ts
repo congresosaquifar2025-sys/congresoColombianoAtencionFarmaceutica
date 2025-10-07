@@ -181,7 +181,7 @@ export const datosPonentes: datosPonente[] = [
   },
   {
     id: 12,
-    nombre: "Jorge Enrique Machado Alba",
+    nombre: "Jorge Enrique Machado",
     foto: ponente12,
     foto1: ponente12Webp,
     descripcion:
@@ -217,7 +217,7 @@ export const datosPonentes: datosPonente[] = [
   },
   {
     id: 18,
-    nombre: "Fernando Martínez-Martínez",
+    nombre: "Fernando Martínez Martínez",
     foto: fernando,
     foto1: fernandoWebp,
     descripcion: `Doctor en Farmacia. Profesor Colaborador Extraordinario adscrito a la Sección de Farmacia Asistencial, Social y Legal del Departamento de Farmacia y Tecnología Farmacéutica de la Universidad de Granada (UGR), España. 
@@ -245,7 +245,7 @@ export const datosPonentes: datosPonente[] = [
   },
   {
     id: 16,
-    nombre: "José Luis Marco Garbayo",
+    nombre: "José Luis Marco",
     foto: jose,
     foto1: joseWebp,
     descripcion: `Doctor en Farmacia, especialista en Farmacia Hospitalaria, psicólogo. Master en Farmacia Clínica y Asistencial. Experto en Seguimiento Farmacoterapéutico. Master en Gestión de Centros y Servicios de Salud. Actualmente jefe del Servicio de Farmacia del Hospital Francesc de Borja (Gandía, Valencia).`,
@@ -280,7 +280,7 @@ export const datosPonentes: datosPonente[] = [
   },
   {
     id: 20,
-    nombre: "Julio Cesar García Casallas",
+    nombre: "Julio Cesar García",
     foto: julio,
     foto1: julioWebp,
     descripcion: `Químico Farmacéutico de la Universidad Nacional de Colombia, Médico de la Universidad del Bosque, con postgrados en medicina Interna de Universidad Militar Nueva Granada y Farmacología Clínica de la Universidad de La Sabana; Así como, Maestría en farmacología de la Universidad Nacional de Colombia y Formación en Estrategia y Liderazgo por el INALDE y por ADEN, Escuelas de Negocios. Conocimiento y experiencia en farmacoterapéutica, Farmacología Clínica, Economía de la Salud, Farmacoeconomía, Farmacoepidemiología, Medicamentos Biológicos y Biosimilares en el marco del Sistema General de Seguridad Social en Salud. El Dr. 
@@ -307,7 +307,7 @@ export const datosPonentes: datosPonente[] = [
   },
   {
     id: 22,
-    nombre: "Andrés Felipe Zuluaga Salazar",
+    nombre: "Andrés Felipe Zuluaga",
     foto: andres,
     foto1: andresWebp,
     descripcion: `Médico, Farmacólogo, Magíster en Telesalud. Profesor titular e investigador del Departamento de Farmacología y Toxicología de la Facultad de Medicina Universidad de Antioquia. Investigador Senior sistema nacional de ciencia y tecnología de Colombia.  
@@ -324,7 +324,7 @@ export const datosPonentes: datosPonente[] = [
     nombre: "Orlando Carreño Moreno",
     foto: orlando,
     foto1:  orlandoWebp,
-    descripcion: `Orlando Carreño Moreno.  Médico Cirujano, Neurólogo infantil, Experto en Epilepsia con áreas de interés en Espasticidad, TICS, TDAH y Neurodesarrollo. Director Científico en Grupo Antioqueño de Neurología Pediátrica y CENPI. Profesor Universitario en Medicina, Pediatría, Psicología, Neuropediatría, Neuropsicología.
+    descripcion: `Médico Cirujano, Neurólogo infantil, Experto en Epilepsia con áreas de interés en Espasticidad, TICS, TDAH y Neurodesarrollo. Director Científico en Grupo Antioqueño de Neurología Pediátrica y CENPI. Profesor Universitario en Medicina, Pediatría, Psicología, Neuropediatría, Neuropsicología.
     Investigador en tratamientos antiepilépticos, fármacos, neuromodulación, VNS, DBS, Toxina Botulínica, Baclofeno, Cannabis Medicinal. Asesor en políticas públicas en salud a entidades gubernamentales y privada. 
     Dedicado los últimos 15 años a Epilepsia y Movimientos Anormales en Niños y Adolescentes. Amplia experiencia clínica y participación interdisciplinaria en el manejo de pacientes de alta complejidad en estas áreas. Entrenamiento y experiencia en el manejo de tecnologías novedosas como estimulación del Nervio Vago, Estimulación cerebral profunda, Baclofeno Intratecal y Toxina Botulínica. Participación como coinvestigador e investigador principal para fármacos fase III y fase IV en Epilepsia, Esclerosis Tuberosa, Espasticidad, Tics y Distonías.
     Investigador y Experticia en manejo de Cannabis Medicinal en Epilepsia y Espasticidad
