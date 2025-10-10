@@ -15,3 +15,9 @@ from = "/paquetes"
 to = "/"
 status = 301
 force = true
+
+[[redirects]]
+from = "/trabajos"
+to = "/"
+status = 301
+force = true
