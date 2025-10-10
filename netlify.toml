@@ -1,5 +1,23 @@
 [[redirects]]
-  from = "/*"
-  to = "/"
-  status = 301
-  force = true
+from = "/programacion"
+to = "/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/ponentes"
+to = "/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/paquetes"
+to = "/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/trabajos"
+to = "/"
+status = 301
+force = true
