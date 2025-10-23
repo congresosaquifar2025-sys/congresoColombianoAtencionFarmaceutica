@@ -244,7 +244,7 @@ export const viernes5: datosProgramacion[] = [
   {
     id: 15,
     horario: "14:30 - 15:15",
-    tema: "Conferencia plenaria: Tecnologías digitales avanzadas y farmacoterapia personalizada",
+    tema: "Conferencia plenaria: El uso de la inteligencia artificial en la farmacoterapia personalizada",
     conferencia: "Dr. Julio César García Casallas. Colombia.",
     color: colorMorado2,
   },
