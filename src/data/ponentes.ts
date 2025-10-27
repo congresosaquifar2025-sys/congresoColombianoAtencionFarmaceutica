@@ -46,6 +46,8 @@ import julio from "./../assets/ponentes/julio.jpg";
 import julioWebp from "./../assets/ponentes/julio@2x-100.webp";
 import orlando from "./../assets/ponentes/orlando.jpg";
 import orlandoWebp from "./../assets/ponentes/orlando@2x-100.webp";
+import sebastian from "./../assets/ponentes/sebastian.jpg";
+import sebastianWebp from "./../assets/ponentes/sebastian.webp";
 
 export const datosPonentes: datosPonente[] = [
   {
@@ -338,4 +340,19 @@ export const datosPonentes: datosPonente[] = [
       "Movimientos Anormales",
     ],
   },
+  {
+    id: 24,
+    nombre: "Sebastián González Avendaño",
+    foto: sebastian,
+    foto1:  sebastianWebp,
+    descripcion: `Médico Cirujano, Universidad de Antioquia,
+      MSc. Epidemiología Clínica, Universidad de Antioquia,
+      Esp. Gerencia de la Salud, Fundación Universitaria de Ciencias de la Salud,
+      Director Médico, Humax Pharmaceutical S.A
+    `,
+    skills: [
+      "Médico",
+      "Epidemiología",
+    ],
+  }
 ];

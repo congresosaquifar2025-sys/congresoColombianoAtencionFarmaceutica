@@ -18,6 +18,11 @@ import pharmaceuticalWebp from "./../assets/logosInicio/funcaion1.webp";
 import colegio from "./../assets/logosInicio/colegio1.png";
 import colegioWebp from "./../assets/logosInicio/colegio1.webp";
 
+import willow from "./../assets/logosInicio/willow.png";
+import willowWebp from "./../assets/logosInicio/willow.webp";
+import labDelta from "./../assets/logosInicio/labDelta.png";
+import labDeltaWebp from "./../assets/logosInicio/labDelta.webp";
+
 export type Colaboradores = {
   png: string;
   webp: string;
@@ -84,3 +89,18 @@ export const apoyan : Colaboradores[] = [
     duration: 1200,
   },
 ];
+
+export const patrocinan : Colaboradores[] = [
+  {
+    png: willow,
+    webp: willowWebp,
+    alt: "Willow Pharma",
+    duration: 400,
+  },
+  {
+    png: labDelta,
+    webp: labDeltaWebp,
+    alt: "Laboratorios Delta",
+    duration: 800,
+  },
+]

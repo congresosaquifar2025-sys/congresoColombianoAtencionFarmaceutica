@@ -1,7 +1,7 @@
 import Mapa from "../components/Mapa";
 import EjesTematicos from "../components/Tematicas";
 import Organiza from "../components/Inicio/Organiza";
-import { organizan, apoyan } from "../data/organizan";
+import { organizan, apoyan, patrocinan } from "../data/organizan";
 import foto from "./../assets/152.jpg";
 import fotoWebp from "./../assets/152.webp";
 import video from "./../assets/Video.webm";
@@ -145,6 +145,29 @@ export default function Inicio() {
       <div className="flex justify-center items-center m-1">
         <div className="flex flex-wrap justify-center items-center gap-15 md:gap-26 mt-10">
           {apoyan.map((item, index) => (
+            <Organiza
+              key={index}
+              png={item.png}
+              webp={item.webp}
+              alt={item.alt}
+              duration={item.duration}
+            />
+          ))}
+        </div>
+      </div>
+
+      <h3
+        className="TetrisCoders__heading text-center p-7
+        border-b-2 border-solid border-[#4a2bac] 
+        shadow-[0_3px_12px_1px_rgba(74,42,172,0.5)]"
+        style={{ marginTop: 80, marginBottom: 80 }}
+      >
+        Patrocinan
+      </h3>
+
+      <div className="flex justify-center items-center m-1">
+        <div className="flex flex-wrap justify-center items-center gap-15 md:gap-26 mt-10">
+          {patrocinan.map((item, index) => (
             <Organiza
               key={index}
               png={item.png}

@@ -188,8 +188,8 @@ export const viernes: datosProgramacion[] = [
   {
     id: 5,
     horario: "9:35 - 10:00",
-    tema: "Pendiente por confirmar",
-    conferencia: "",
+    tema: "Uso adecuado de medicamentos de venta libre (OTC)",
+    conferencia: "Sebastián González Avendaño.",
     color: colorAzul2,
   },
   {
