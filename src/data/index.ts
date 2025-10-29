@@ -213,14 +213,57 @@ export const viernes2: datosProgramacion[] = [
 
 export const viernes3: datosProgramacion[] = [
   {
-    id: 8,
+    id: 1,
     horario: "11:00 - 13:00",
-    tema: "Presentación oral de 6 de los mejores trabajos presentados",
+    tema: "Presentación oral de 6 de los mejores trabajos sometidos (15 minutos máximo de presentación y 5 minutos para preguntas por jurado evaluador).",
     conferencia:
       "Moderador: Dr. Newar Giraldo Álzate, Cielum Health, Colombia.",
     color: colorMorado,
   },
+  {
+    id: 2,
+    horario: "11:00 - 11:15",
+    tema: "Caracterización y acompañamiento psicológico ambulatorio a pacientes con enfermedades crónicas de alto costo: estrategia para mejorar la adherencia terapéutica",
+    conferencia: "QF. Juliana Madrigal",
+    color: colorMorado,
+  },
+  {
+    id: 3,
+    horario: "11:20 - 11:35",
+    tema: "Diseño de un curso virtual para el abordaje de síntomas menores en farmacias-droguerías en Colombia",
+    conferencia: "QF. Milena Ortíz",
+    color: colorMorado,
+  },
+  {
+    id: 4,
+    horario: "11:40 - 11:55",
+    tema: "Experiencia del programa de farmacia comunitaria a pacientes con enfermedades crónicas no transmisibles",
+    conferencia: "QF. Sandra Torres",
+    color: colorMorado,
+  },
+  {
+    id: 5,
+    horario: "12:00 - 12:15",
+    tema: "Optimización del seguimiento farmacoterapéutico en el Hospital Alma Máter de Antioquia: evaluación pre- y post-sistematización del programa 2016 al 2025",
+    conferencia: "QF. Jeimmy Paola Olaya",
+    color: colorMorado,
+  },
+  {
+    id: 6,
+    horario: "12:20 - 12:35",
+    tema: "Persistencia en la estrategia de optimización de terapia en pacientes con enfermedades autoinmunes sistémicas",
+    conferencia: "QF. Carolina Becerra Arias",
+    color: colorMorado,
+  },
+  {
+    id: 7,
+    horario: "12:40 - 12:55",
+    tema: "Prevalencia y caracterización de eventos adversos a medicamentos que ocasionan el ingreso a una institución de alta complejidad - Medellín, Colombia, 2023",
+    conferencia: "QF. Juliana Díaz",
+    color: colorMorado,
+  },
 ];
+
 
 export const viernes4: datosProgramacion[] = [
   {

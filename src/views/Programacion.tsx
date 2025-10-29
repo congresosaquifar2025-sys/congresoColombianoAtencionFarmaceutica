@@ -54,7 +54,7 @@ export default function Programacion() {
 
           {abierto && (
             <>
-              <div className="eventos__listado slider mt-4">
+              <div className=" slider mt-4">
                 <div className="md:grid grid-cols-3 gap-1">
                   {jueves.map((item) => (
                     <Evento
@@ -69,8 +69,8 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-1 gap-1">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-1 gap-0.5">
                   {jueves2.map((item) => (
                     <Evento
                       key={item.id}
@@ -84,8 +84,8 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-6 gap-0.5">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-3 lg:grid-cols-6 gap-0.5">
                   {jueves3.map((item) => (
                     <Evento
                       key={item.id}
@@ -99,8 +99,8 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-1 gap-1">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-1 gap-0.5">
                   {jueves6.map((item) => (
                     <Evento
                       key={item.id}
@@ -114,8 +114,8 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-6 gap-0.5">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-3 lg:grid-cols-6 gap-0.5">
                   {jueves4.map((item) => (
                     <Evento
                       key={item.id}
@@ -129,8 +129,8 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-1 gap-1">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-1 gap-0.5">
                   {jueves5.map((item) => (
                     <Evento
                       key={item.id}
@@ -158,8 +158,8 @@ export default function Programacion() {
 
           {abierto2 && (
             <>
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-6 gap-0.5">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-3 lg:grid-cols-6 gap-1">
                   {viernes.map((item) => (
                     <Evento
                       key={item.id}
@@ -173,8 +173,8 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-1 gap-1">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-1 gap-0.5">
                   {viernes2.map((item) => (
                     <Evento
                       key={item.id}
@@ -188,8 +188,8 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-1 gap-0.5">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-4 lg:grid-cols-7 gap-0.5" id="presentaciones">
                   {viernes3.map((item) => (
                     <Evento
                       key={item.id}
@@ -203,8 +203,8 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-1 gap-1">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-1 gap-0.5">
                   {viernes4.map((item) => (
                     <Evento
                       key={item.id}
@@ -218,8 +218,8 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-6 gap-0.5">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-3 lg:grid-cols-6 gap-0.5">
                   {viernes5.map((item) => (
                     <Evento
                       key={item.id}
@@ -233,8 +233,8 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-1 gap-1">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-1 gap-0.5">
                   {viernes6.map((item) => (
                     <Evento
                       key={item.id}
@@ -262,8 +262,8 @@ export default function Programacion() {
 
           {abierto3 && (
             <>
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-6 gap-1">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-3 lg:grid-cols-6 gap-1">
                   {sabado.map((item) => (
                     <Evento
                       key={item.id}
@@ -277,8 +277,8 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
-                <div className="md:grid grid-cols-1 gap-1">
+              <div className=" slider mt-4">
+                <div className="md:grid grid-cols-1 gap-0.5">
                   {sabado2.map((item) => (
                     <Evento
                       key={item.id}
@@ -292,7 +292,7 @@ export default function Programacion() {
                 </div>
               </div>
 
-              <div className="eventos__listado slider mt-4">
+              <div className=" slider mt-4">
                 <div className="md:grid grid-cols-1 gap-0.5">
                   {sabado3.map((item) => (
                     <Evento

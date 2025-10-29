@@ -564,6 +564,10 @@ h3 {
   cursor: not-allowed;
 }
 
+#presentaciones .evento__informacion {
+  height: 88%;
+}
+
 .resumen {
   background-image: linear-gradient(to right, rgba(74, 43, 172, 0.7), rgba(74, 43, 172, 0.9)), url(../img/bg_numeros.jpg);
   background-image: linear-gradient(to right, rgba(74, 43, 172, 0.7), rgba(74, 43, 172, 0.9)), image-set(url("../img/bg_numeros.webp") 1x, url("../img/bg_numeros.jpg") 1x);
