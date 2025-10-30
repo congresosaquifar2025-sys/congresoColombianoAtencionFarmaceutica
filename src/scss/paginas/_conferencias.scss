@@ -127,3 +127,11 @@
         }
     }
 }
+
+#presentaciones {
+    .evento {
+        &__informacion {
+            height: 88%;
+        }
+    }
+}
