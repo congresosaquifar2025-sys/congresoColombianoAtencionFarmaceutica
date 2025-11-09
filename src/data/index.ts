@@ -366,9 +366,8 @@ export const sabado: datosProgramacion[] = [
   {
     id: 5,
     horario: "10:00 - 10:30",
-    tema: "Atención Farmacéutica conductual breve en psoriasis",
-    conferencia:
-      "Dra. Lucrecia Bourgon Baquedano. Farmacia Hospitalaria Francesc de Borja. Gandía, España.",
+    tema: "Oncología y soporte nutricional: integrar la nutrición en la estrategia terapéutica",
+    conferencia: "Dra. Lucrecia Bourgon Baquedano. Farmacia Hospitalaria Francesc de Borja. Gandía, España.",
     color: colorAzul2,
   },
   {
