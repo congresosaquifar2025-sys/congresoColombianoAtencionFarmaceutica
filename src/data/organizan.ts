@@ -22,6 +22,10 @@ import willow from "./../assets/logosInicio/willow.png";
 import willowWebp from "./../assets/logosInicio/willow.webp";
 import labDelta from "./../assets/logosInicio/labDelta.png";
 import labDeltaWebp from "./../assets/logosInicio/labDelta.webp";
+import balancePharma from "./../assets/logosInicio/BalancePharma.png";
+import balancePharmaWebp from "./../assets/logosInicio/BalancePharma.webp";
+import Huma from "./../assets/logosInicio/Huma.png";
+import HumaWebp from "./../assets/logosInicio/Huma.webp";
 
 export type Colaboradores = {
   png: string;
@@ -101,6 +105,18 @@ export const patrocinan : Colaboradores[] = [
     png: labDelta,
     webp: labDeltaWebp,
     alt: "Laboratorios Delta",
-    duration: 800,
+    duration: 500,
+  },
+  {
+    png: Huma,
+    webp: HumaWebp,
+    alt: "HUMAX PHARMACEUTICAL SA",
+    duration: 600,
+  },
+  {
+    png: balancePharma,
+    webp: balancePharmaWebp,
+    alt: "Balance Pharma",
+    duration: 700,
   },
 ]
