@@ -252,7 +252,7 @@ export const viernes3: datosProgramacion[] = [
     id: 6,
     horario: "12:20 - 12:35",
     tema: "Persistencia en la estrategia de optimización de terapia en pacientes con enfermedades autoinmunes sistémicas",
-    conferencia: "QF.  José Alejandro Giraldo Ramírez",
+    conferencia: "QF. José Alejandro Giraldo Ramírez",
     color: colorMorado,
   },
   {
